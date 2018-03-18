@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.oji.ajinurlaksono_1202150032_studycase4.MainMenu">
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Main Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:onClick="list"
+    android:layout_marginRight="30dp"
+    android:src="@drawable/listmenu"
+    android:layout_width="150dp"
+    android:layout_height="150dp" />
+
+
+   <ImageView
+       android:onClick="cariGambar"
+       android:src="@drawable/searchmenu"
+       android:layout_width="150dp"
+       android:layout_height="150dp" />
+    </LinearLayout>
+</LinearLayout>

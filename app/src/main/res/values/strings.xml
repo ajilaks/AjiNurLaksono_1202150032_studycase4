@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Oji Modul 4</string>
+    <string-array name="menu">
+        <item>Aji</item>
+        <item>Oji</item>
+        <item>Uji</item>
+        <item>Iji</item>
+        <item>Eji</item>
+        <item>Neji</item>
+        <item>Meji</item>
+        <item>Keji</item>
+        <item>Peji</item>
+        <item>Muji</item>
+    </string-array>
+</resources>

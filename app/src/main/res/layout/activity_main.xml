@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oji.ajinurlaksono_1202150032_studycase4.MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="List Nama Mahasiswa" />
+    <LinearLayout
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:id="@+id/button_startAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mulai AsyncTask"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:onClick="hapus"
+        android:id="@+id/hapus"
+        android:text="Reset List"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+</LinearLayout>
